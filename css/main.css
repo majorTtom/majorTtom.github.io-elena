@@ -1,0 +1,533 @@
+body{
+	font-family: 'PT Sans', sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #40474e;
+
+}
+
+/*.clearfix:after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}*/
+
+header {
+	background: url(../img/trueheaderfon.jpg) no-repeat center top;
+	background-size: cover;
+	padding-bottom: 70px;
+}
+
+
+nav{
+	padding-top: 45px;
+	margin-left: 136px;
+}
+
+div, p, a,img, form, button, {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	padding: 0;
+}
+
+h3{
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+p{
+	font-size: 14px;
+	color: #787b80;
+}
+
+.container {
+	width: 600px;
+	margin: 0 auto;
+}
+
+/*header*/
+
+.header {
+	
+}
+
+.logo {
+	padding-top: 65px;
+	text-align: center;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+} 
+
+.menu li{
+	float: left;
+	padding-right: 33px;
+	display: block;
+}
+
+.menu a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+.titles{
+	color: #fff;
+	text-align: center;
+
+}
+
+.titles h1{
+	margin-top: 90px;
+	font-weight: bold;
+	font-size: 53px;
+	/*background-color: yellow;*/
+}
+
+.titles h2{
+	margin-top: 46px;
+	font-size: 15px;
+	/*background-color: blue;*/
+}
+
+
+.button {
+	text-align: center;
+	margin-top: 82px;
+}
+
+.button a{
+	padding: 19px 50px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 28px;
+	font-size: 15px;
+	font-weight: 700;
+	background: #50c3af;
+	color:#fff;
+}
+
+
+/*section1*/
+.service{
+	background-color: #eeeeef;
+	padding-bottom: 285px;
+}
+
+.services {
+
+}
+
+
+
+.services__item h3{
+	margin-top: 28px;
+	font-size: 16px;
+	margin-bottom: 12px;
+}
+
+.services__item p{
+	margin-top: 25px;
+
+}
+
+
+.services__item{
+	padding-top: 50px;
+	/*background-color: pink;*/
+	width: 165px;
+	float: left;
+	text-align: center;
+}
+
+.services__item:last-child {
+	float: right;
+
+}
+
+.services__item:nth-child(2){
+	margin-left: 44px;
+}
+
+.services__item:first-child{
+	margin-left: 10px;
+}
+
+
+/*section2*/
+
+.information{
+	padding-bottom: 450px;
+}
+
+.info{
+	padding-top: 65px;
+	padding-bottom: 75px;
+}
+
+.info_block{
+	width: 265px;
+	float: left;
+}
+
+.info_block:last-child{
+	float: right;
+	margin-left: 60px;
+}
+
+.info_block h3{
+	text-align: center;
+	padding-top: 42px;
+}
+
+.info_block p{}
+
+.line{
+	padding-bottom: 20px;
+}
+
+.pictures{
+	margin-bottom: 40px;
+	background-color: red;
+}
+
+.button2 a{
+	margin: 0 auto;
+	text-decoration: none;
+	background-color: #50c3af;
+	padding: 12px 15px;
+	border-radius: 20px;
+	font-size: 14px;
+	color: #fff;
+	width: 98px;
+	float: left;
+	margin-top: 30px;
+}
+/*section 3*/
+
+.s4{
+	background-color: #eeeeef;
+	padding-bottom: 326px;
+}
+
+.fully{
+	float: left;
+	margin-top: 60px;
+	padding-bottom: 75px;
+
+}
+
+.fully h3{
+	float: right;
+	padding-right: 360px;
+	margin-bottom: 12px;
+}
+
+.fully p{
+	margin-bottom: 35px;
+}
+
+
+.button{
+	margin-bottom: 62px;
+
+}
+.button3 a{
+	margin: 0 auto;
+	text-decoration: none;
+	background-color: #d2d5da;
+	padding: 12px 15px;
+	border-radius: 20px;
+	font-size: 14px;
+	color: #fff;
+	width: 98px;
+	float: left;
+}
+
+/*section4*/
+
+.town{
+	padding-bottom: 68px;
+}
+
+.urr{
+	padding-top: 56px;
+	padding-bottom: 70px;
+	
+}
+
+.imgurban{
+	margin-left: 5px;
+}
+
+.urban:last-child{
+	float: right;
+}
+
+.urban:nth-child(2){
+	margin-left: 24px;
+}
+
+
+
+.h__titles{
+	margin-top: 40px;
+	margin-left: 5px;
+}
+
+.h__titles h3{
+	float: left;
+}
+
+.h__titles h3:last-child{
+	float: right;
+	padding-right: 24px;
+}
+
+.h__titles h3:nth-child(2){
+	margin-left: 64px;
+}
+
+.s4pr{
+	margin-left: 5px;
+	margin-top: 10px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.spr:last-child{
+	float: right;
+	margin-left: 23px;
+
+}
+
+.spr:nth-child(2){
+	margin-left: 23px;
+}
+
+
+.button4{
+
+}
+
+.button4 a{
+	font-size: 14px;
+	color: #87d4c6;
+	text-decoration: none;
+}
+
+.check{
+	float: left;
+}
+
+.check:last-child{
+	float: right;
+	margin-right: 85px;
+}
+
+.check:nth-child(2){
+	margin-left: 106px;
+}
+
+
+/*section 5*/
+.sendd{
+	background-color: #eeeeef;
+	padding-bottom: 310px;	
+}*/
+
+.sendimg{
+}
+.send{
+	background-color: blue;
+
+}
+
+.send__item{
+	float: left;
+	width: 245px;
+	margin-top: 62px;
+}
+
+.send__item h3{
+	float: right;
+	margin-right: 90px;
+}
+
+.send__item:last-child{
+	float: right;
+	
+}
+
+.send__item:first-child{
+	
+}
+
+.buttonn{
+	margin-top: 38px;
+	margin-bottom: 60px;
+}
+
+.buttonn a{
+	margin: 0 auto;
+	text-decoration: none;
+	background-color: #50c3af;
+	padding: 12px 15px;
+	border-radius: 20px;
+	font-size: 14px;
+	color: #fff;
+	width: 98px;
+	float: left;
+}
+/*section6*/
+
+.s7{
+	padding-bottom: 326px;
+}
+
+.seven{
+	margin-top: 62px;
+	float: left;
+}
+
+.just{
+	width: 285px;
+	float: right;
+	margin-left: 26px;
+}
+
+.buttton{
+	margin-top: 32px; 
+}
+
+.buttton a{
+	margin: 0 auto;
+	text-decoration: none;
+	background-color: #d2d5da;
+	padding: 12px 15px;
+	border-radius: 20px;
+	font-size: 14px;
+	color: #fff;
+	width: 98px;
+	float: left
+}
+
+/*section 8*/
+.s8{
+	background-color: #50c3af;
+	padding-bottom: 0px;
+}
+
+.star h2{
+	margin-right: 160px;
+	float: right;
+	font-size: 15px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.template{
+	padding-top: 50px;
+}
+
+.star{	
+	margin-bottom: 42px;
+	margin-left: 177px;
+}
+
+.logoo{
+	padding-bottom: 72px;
+	margin-left: 30px;
+}
+
+.logoo a{
+	text-decoration: none;
+}
+
+.log{
+	margin-right: 30px;
+}
+
+/*footer*/
+
+.down{	
+	margin-left:10px; 
+}
+
+
+.gray{
+	color:#787b80;
+}
+
+.foot{
+	margin-right: 5px;
+	float: left;
+}
+
+.foot:last-child{
+	float: right;
+	margin-top: 16px;
+}
+
+.foot:nth-child(2){
+	margin-left: 8px;
+}
+
+.p {
+	background-color: orange;
+}
+
+.ic{
+	margin-right: 5px;
+}
+
+.foot a{
+	text-decoration: none;
+}
+
+
+/*практика в js*/
+
+.green{
+	color: green;
+}
+
+.input{
+	
+}
+
+
+/*button*/
+.section{
+	height: 100vh;
+	background-color: #7b1fa2;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.menu-btn{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background-color: #fff;
+	border-radius: 50%;
+	position: relative;
+}
+
+span{
+	position: absolute;
+	top:50%;
+	width: 20px;
+	height: 2px;
+	background-color: #222;
+}
